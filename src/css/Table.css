@@ -1,0 +1,10 @@
+th {
+  background-color: black;
+  border: 5px groove purple;
+}
+
+table, td {
+  background-color: rgb(39, 39, 39);
+  border: 3px groove purple;
+  color: white;
+}
