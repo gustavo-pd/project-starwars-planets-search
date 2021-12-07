@@ -1,0 +1,13 @@
+.title {
+  color: yellow;
+  text-align: center;
+}
+
+#searchInput {
+  background-color: black;
+  border-color: purple;
+  color: yellow;
+  display: block;
+  margin: 0 auto;
+  width: 420px;
+}

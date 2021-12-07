@@ -18,24 +18,47 @@ const NAMES_TR = [
   'URL',
 ];
 
+const INITIAL_FILTERS = {
+  filterByName: {
+    name: '',
+  },
+};
+
 function AppProvider({ children }) {
-  const [planets, setPlanets] = useState([]);
+  const [data, setData] = useState([]);
+  const [planets, setPlanets] = useState(data);
   const [tableHead] = useState(NAMES_TR);
+  const [filters, setFilters] = useState(INITIAL_FILTERS);
 
   async function fetchPlanets() {
     const URL = 'https://swapi-trybe.herokuapp.com/api/planets';
-    const data = await fetch(URL);
-    const response = await data.json();
+    const resolve = await fetch(URL);
+    const response = await resolve.json();
+    setData(response.results);
     setPlanets(response.results);
   }
+
+  const filterPlaneByName = () => {
+    const { filterByName } = filters;
+    const filteredPlanets = data.filter(
+      (planet) => planet.name.toLowerCase().includes(filterByName.name.toLowerCase()),
+    );
+    return setPlanets(filteredPlanets);
+  };
 
   useEffect(() => {
     fetchPlanets();
   }, []);
 
+  useEffect(() => {
+    filterPlaneByName();
+  }, [filters]);
+
   const state = {
-    planets,
     tableHead,
+    planets,
+    filters,
+    setFilters,
   };
 
   return (
