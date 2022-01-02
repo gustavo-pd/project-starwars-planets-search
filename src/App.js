@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css';
-import AppProvider from './context/AppProvider';
 import Table from './components/Table';
-import Header from './components/Header';
+import Filter from './components/Filter';
+import AppProvider from './context/AppProvider';
 
 function App() {
   return (
-    <AppProvider>
-      <Header />
-      <Table />
-    </AppProvider>
+    <main>
+      <AppProvider>
+        <Filter />
+        <Table />
+      </AppProvider>
+    </main>
   );
 }
 

@@ -1,12 +1,14 @@
 .title {
-  color: yellow;
+  background-color: black;
+  color: purple;
   text-align: center;
 }
 
 #searchInput {
-  background-color: rgb(39, 39, 39);
+  background-color: black;
+  border-bottom: 10px;
   border-color: purple;
-  color: yellow;
+  color: white;
   display: block;
   margin: 0 auto;
   width: 420px;
