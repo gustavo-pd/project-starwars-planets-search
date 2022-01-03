@@ -17,6 +17,8 @@ function AppProvider({ children }) {
     'igual a',
   ];
 
+  const VALUE_INITIAL = 0;
+
   const [data, setData] = useState([]);
   const [filters, setFilters] = useState([]);
   const [initialOptions, setInitialOptions] = useState(selectState);
@@ -24,7 +26,7 @@ function AppProvider({ children }) {
   const [comparisonInitialOptions,
     setComparisonInitialOptions] = useState(selectComparisonState);
   const [comparisonOptions, setComparisonOptions] = useState(selectComparisonState[0]);
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState(VALUE_INITIAL);
 
   async function fetchData() {
     const URL = 'https://swapi-trybe.herokuapp.com/api/planets';
@@ -63,7 +65,6 @@ function AppProvider({ children }) {
     </AppContext.Provider>
   );
 }
-
 AppProvider.propTypes = {
   children: PropTypes.node,
 }.isRequired;

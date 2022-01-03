@@ -76,6 +76,7 @@ function Filter() {
             id="valueInput"
             data-testid="value-filter"
             placeholder="enter a numeric value"
+            value={ value }
             onChange={ ({ target }) => setValue(target.value) }
           />
         </label>
@@ -90,5 +91,4 @@ function Filter() {
     </header>
   );
 }
-
 export default Filter;
