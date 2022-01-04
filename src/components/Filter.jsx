@@ -46,7 +46,7 @@ function Filter() {
   return (
     <header>
       <h1 className="title">StarWars Project</h1>
-      <form>
+      <form className="form">
         <label htmlFor="searchInput">
           <input
             type="text"
@@ -59,12 +59,14 @@ function Filter() {
         </label>
         <select
           data-testid="column-filter"
+          id="column-filter"
           onChange={ ({ target }) => setSelectOptions(target.value) }
         >
           { initialOptions.map((opt, i) => (<option key={ i }>{opt}</option>))}
         </select>
         <select
           data-testid="comparison-filter"
+          id="comparison-filter"
           onChange={ ({ target }) => setComparisonOptions(target.value) }
         >
           { comparisonInitialOptions.map((opt, i) => (<option key={ i }>{opt}</option>))}
@@ -84,6 +86,7 @@ function Filter() {
           type="button"
           data-testid="button-filter"
           onClick={ handleBtn }
+          className="btn-filter"
         >
           Filter
         </button>

@@ -11,3 +11,31 @@
   margin: 0 auto;
   width: 420px;
 }
+
+.form {
+  text-align: center;
+}
+
+#column-filter {
+  background-color: rgb(39, 39, 39);
+  border-color: purple;
+  color: yellow;
+}
+
+#comparison-filter {
+  background-color: rgb(39, 39, 39);
+  border-color: purple;
+  color: yellow;
+}
+
+#valueInput {
+  background-color: rgb(39, 39, 39);
+  border-color: purple;
+  color: yellow;
+}
+
+.btn-filter {
+  background-color: rgb(61, 3, 61);
+  border-color: yellow;
+  color: yellow;
+}
