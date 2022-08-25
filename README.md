@@ -1,7 +1,7 @@
 <h1>👾 StarWars Planets Search 🛸</h1>
 
-<p>Link do projeto</p>
-https://project-starwars-planets-search-pied.vercel.app/
+<p>Link do projeto: <link>https://project-starwars-planets-search-pied.vercel.app/</link></p>
+</br>
 
 <img src="./src/images/Star-wars-logo-new-tall.jpg" alt="Logo SPS">
 
@@ -15,7 +15,7 @@ https://project-starwars-planets-search-pied.vercel.app/
 
 <p>O StarWars Planets Search é um projeto front-end, onde é possível visualizar diversos planetas do universo StarWars, com isso, é possível filtrar os planetas pelo nome, ou por diversas outras características</p>
 <p>Neste projeto sou o autor de toda parte do front-end, sendo ele um projeto desenvolvido durante o curso da Trybe com o objetivo de consolidar os estudos com Javascript, ReactJS e Context-API, foi realizado em dezembro de 2021, no módulo de Front-end.</p>
-<p>A API utilizada para obter os dados dos planetas: https://swapi-trybe.herokuapp.com/api/planets/</p>
+<p>A API utilizada para obter os dados dos planetas: <link>https://swapi-trybe.herokuapp.com/api/planets/</link></p>
 
 <h2 id="tecnologies">Técnologias utilizadas</h2>
 
@@ -49,5 +49,5 @@ https://project-starwars-planets-search-pied.vercel.app/
 </br>
 
   4. O projeto está online na Vercel, pode ser acessado pelo seguinte link:
-    * `https://project-starwars-planets-search-pied.vercel.app/`
+    * <p><link>https://project-starwars-planets-search-pied.vercel.app/</link></p>
   
