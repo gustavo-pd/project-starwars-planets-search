@@ -20,7 +20,7 @@ function Filter() {
   const inputChange = ({ target }) => {
     const inputValue = target.value;
     const listOfPlanets = data.filter(
-      (planet) => (planet.name.toLowerCase().includes(inputValue)),
+      (planet) => (planet.name.toLowerCase().includes(inputValue.toLowerCase())),
     );
     setFilters(listOfPlanets);
   };
