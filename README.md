@@ -1,60 +1,53 @@
 <h1>👾 StarWars Planets Search 🛸</h1>
 
+<p>Link do projeto</p>
+https://project-starwars-planets-search-pied.vercel.app/
+
 <img src="./src/images/Star-wars-logo-new-tall.jpg" alt="Logo SPS">
 
-<h2>Contexto</h2>
+<h2>Índice</h2>
+<h4>- <a href="#context">Contexto</a></h4>
+<h4>- <a href="#tecnologies">Técnologias utilizadas</a></h4>
+<h4>- <a href="#development">Desenvolvimento</a></h4>
+<h4>- <a href="#howtouse">Como executar o projeto</a></h4>
+
+<h2 id="context">Contexto</h2>
 
 <p>O StarWars Planets Search é um projeto front-end, onde é possível visualizar diversos planetas do universo StarWars, com isso, é possível filtrar os planetas pelo nome, ou por diversas outras características</p>
-<p>Neste projeto sou o autor de toda parte do front-end, sendo ele um projeto desenvolvido durante o curso da Trybe, em dezembro de 2021, no módulo de Front-end.</p>
+<p>Neste projeto sou o autor de toda parte do front-end, sendo ele um projeto desenvolvido durante o curso da Trybe com o objetivo de consolidar os estudos com Javascript, ReactJS e Context-API, foi realizado em dezembro de 2021, no módulo de Front-end.</p>
 <p>A API utilizada para obter os dados dos planetas: https://swapi-trybe.herokuapp.com/api/planets/</p>
 
-<h2>Técnologias utilizadas</h2>
+<h2 id="tecnologies">Técnologias utilizadas</h2>
 
 <ul>
-  <li>Docker</li>
-  <li>MySQL e Sequelize</li>
-  <li>Typescript</li>
-  <li>NodeJS</li>
-  <li>Express</li>
-  <li>API Rest - CRUD</li>
-  <li>Modelo de camadas MSC e POO</li>
-  <li>Testes de integração - Mocha, chai e sinon</li>
+  <li>ReactJS</li>
+  <li>Context API</li>
+  <li>React Hooks</li>
 </ul>
 
-<h2>Desenvolvimento</h2>
+<h2 id="development">Desenvolvimento</h2>
 
-<p>Neste projeto pude implementar todo o <b>back-end</b> <i>(./app/backend)</i> da aplicação TFC, de modo que o usuário possa ver a tabela atualizada e também o resultado de cada jogo.</p>
-<p>Para o usuário do administrador é possível adicionar mais partidas, atualizando automaticamente a tabela.</p>
-<p>Foi utilizado o docker-compose com o papel de unir todas as partes e subir um projeto completo.</p>
-<p>Banco de dados criado em MySQL, utilizando a ferramenta Sequelize. Foram adicionados dados por via de Seeders para popular a tabela e mostrar o funcionamento.</p>
-<p>O Back-end foi desenvolvido utilizando NodeJS, Typescript e Express. Implementando regras de negócio para popular adequadamente a tabela disponível no front-end que será exibida para a pessoa usuária do sistema.</p>
-
-<img src="./app/frontend/src/images/tfccc.png" alt="TFC Home page">
+<p>Neste projeto pude implementar uma página front-end onde uma tabela é preenchida com dados de planetas do universo StarWars, retirados da API citada acima.</p>
+<p>Utilizando o Context API do ReactJS para gerenciar estados, a idéia era poder testar com dados filtros do tipo input e select. E poder renderizar os resultados na tela.</p>
+<p>Neste projeto o CSS não foi o foco, e sim as funcionalidades e filtros.</p>
 
 
-<h2>Como executar o projeto</h2>
+<h2 id="howtouse">Como executar o projeto</h2>
 
   1. Clone o repositório
-    * `git clone https://github.com/tryber/sd-016-a-trybe-futebol-clube.git`.
+    * `git clone git@github.com:gustavo-pd/project-starwars-planets-search.git`.
     * Entre na pasta do repositório que você acabou de clonar:
-      * `cd sd-016-a-trybe-futebol-clube`
+      * `cd project-starwars-planet-search`
 </br>
 
   2. Instale as dependências:
     * `npm install`
 </br>
 
-  3. Rode o Docker para unir e subir todas as partes:
-    * `npm run compose:up` para upar ou `npm run compose:down` para derrubar
+  3. Rode o NPM start para abrir o projeto no localhost pelo navegador:
+    * `npm run start`
 </br>
 
-  4. O front-end irá rodar na porta 3000, e o back-end na porta 3001, para acessar o front-end, acesse no seu navegador:
-  * `http://localhost:3000`
-</br>
-
-  5. Para fazer login com o admin e poder gerenciar partidas:
-  * Login: `admin@admin.com` Password: `secret_admin`
-</br>
-
-  Para fazer login como usuário:
-  * Login: `user@user.com` Password: `secret_user`
+  4. O projeto está online na Vercel, pode ser acessado pelo seguinte link:
+    * `https://project-starwars-planets-search-pied.vercel.app/`
+  
