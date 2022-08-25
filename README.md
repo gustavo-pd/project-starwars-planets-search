@@ -1,7 +1,7 @@
 <h1>👾 StarWars Planets Search 🛸</h1>
 
-<p>Link do projeto</p>
-<link>https://project-starwars-planets-search-pied.vercel.app/</link>
+<p>Link do projeto <link>https://project-starwars-planets-search-pied.vercel.app/</link></p>
+</br>
 </br>
 
 <img src="./src/images/Star-wars-logo-new-tall.jpg" alt="Logo SPS">
