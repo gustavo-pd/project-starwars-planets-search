@@ -49,5 +49,5 @@
 </br>
 
   4. O projeto está online na Vercel, pode ser acessado pelo seguinte link:
-    * `<link>https://project-starwars-planets-search-pied.vercel.app/</link>`
+    * <p><link>https://project-starwars-planets-search-pied.vercel.app/</link></p>
   
