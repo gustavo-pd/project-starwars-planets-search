@@ -5,7 +5,7 @@
 <h2>Contexto</h2>
 
 <p>O StarWars Planets Search é um projeto front-end, onde é possível visualizar diversos planetas do universo StarWars, com isso, é possível filtrar os planetas pelo nome, ou por diversas outras características</p>
-<p>Neste projeto sou o autor de toda parte do front-end, sendo ele um projeto desenvolvido durante o curso da Trybe.</p>
+<p>Neste projeto sou o autor de toda parte do front-end, sendo ele um projeto desenvolvido durante o curso da Trybe, em dezembro de 2021, no módulo de Front-end.</p>
 <p>A API utilizada para obter os dados dos planetas: https://swapi-trybe.herokuapp.com/api/planets/</p>
 
 <h2>Técnologias utilizadas</h2>
