@@ -48,6 +48,10 @@
     * `npm run start`
 </br>
 
-  4. O projeto está online na Vercel, pode ser acessado pelo seguinte link:
+  4. Acesse no seu navegador:
+    * `http://localhost:3000`
+</br>
+
+  5. O projeto está online na Vercel, pode ser acessado pelo seguinte link:
     * <p><link>https://project-starwars-planets-search-pied.vercel.app/</link></p>
   
